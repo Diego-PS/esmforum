@@ -85,3 +85,24 @@ Para saber mais sobre esses diagramas, recomendamos o [Capítulo 4](https://engs
 Crie um diagrama de sequência ilustrando os métodos chamados quando se cadastra uma pergunta no ESM Forum.
 
 Dica: os diagramas anteriores foram criados em Markdown usando a ferramenta [Mermaid](https://mermaid-js.github.io/mermaid/#/sequenceDiagram), que é suportada nativamente pelo GitHub.
+
+
+## Cadastrar Pergunta
+
+```mermaid
+    sequenceDiagram
+        activate browser
+	browser->>server: POST /perguntas 
+        activate server
+        server->>modelo: cadastrar_pergunta(pergunta)
+        activate modelo
+        modelo->>bd_utils: exec()
+        activate bd_utils
+        bd_utils-->>modelo: return
+        deactivate bd_utils
+        modelo-->>server: return
+        deactivate modelo
+	server-->>browser: pergunta-sucesso
+	deactivate server
+	deactivate browser
+```	
