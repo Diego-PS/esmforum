@@ -48,3 +48,5 @@ Conforme pode ver no arquivo, ele possui duas seções principais.
     Então, na página do repositório no GitHub, em Actions, inspecione o resultado da execução da integração contínua. Você vai perceber que ela não foi bem sucedida, conforme indicado por um ícone vermelho.
 
     Por último, para não deixar o repositório com um bug, volte o código para a versão de antes e faça um novo `push`.
+
+Pequena modificação
