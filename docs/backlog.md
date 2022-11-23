@@ -21,9 +21,13 @@ Faça então o que se pede abaixo:
 Tarefas:
 
 #1: Implementar a rota de edição da pergunta
+
 #2: Implementar a rota de deleção da pergunta
+
 #3: Adicionar botões de edição e deleção ao front-end
+
 #4: Integrar as rotas aos botões do front-end
+
 
 Critérios de aceitação:
 
