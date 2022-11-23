@@ -64,3 +64,5 @@ Implemente um terceiro teste end-to-end. Por exemplo, você pode testar
 agora o cadastro de uma resposta. Implemente o seu teste em um arquivo 
 chamado ``spec3.js`` e salve-o na mesma pasta dos testes anteriores. 
 Assim, o nosso script irá executá-lo automaticamente ao ser chamado.
+
+![Plot](https://github.com/Diego-PS/esmforum/blob/main/images_github/testes-end-to-end.png)
