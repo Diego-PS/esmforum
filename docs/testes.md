@@ -41,4 +41,4 @@ Implemente então um ou mais casos de testes, sempre no
 arquivo [modelo.test.js](../testes/modelo.test.js), de forma que 
 essa cobertura atinja 100%.
 
-![plot](./images_github/testes_100.png)
+![Plot](./images_github/testes_100.png)
