@@ -49,4 +49,4 @@ Conforme pode ver no arquivo, ele possui duas seções principais.
 
     Por último, para não deixar o repositório com um bug, volte o código para a versão de antes e faça um novo `push`.
 
-Pequena modificação
+![Plot](https://github.com/Diego-PS/esmforum/blob/main/images_github/ci.png)
